@@ -3,7 +3,7 @@
 ![alt text](malogo.png "Logo")
 
 
-## Home tasks for [Python cource](https://github.com/20awesome/VladBolibruk_MA2018Python)
+## Home tasks for [Python course](https://github.com/20awesome/VladBolibruk_MA2018Python)
 
 
 * [Homework00 issue](https://github.com/20awesome/VladBolibruk_MA2018Python/issues/1)
