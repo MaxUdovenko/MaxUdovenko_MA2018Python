@@ -1,6 +1,6 @@
 # Masters of Code 2018-2019
 
-![alt text](ma_logo.png "Logo")
+![alt text](malogo.png "Logo")
 
 
 Home tasks for [Python cource](https://github.com/20awesome/VladBolibruk_MA2018Python)
