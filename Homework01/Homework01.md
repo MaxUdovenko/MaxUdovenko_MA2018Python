@@ -4,6 +4,7 @@
 * [CodeSkulptor3](https://py3.codeskulptor.org/)
 * [Rock paper scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors)
 * [Additional weapons](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors#Additional_weapons)
+* [Repl.it gives you an instant IDE to learn, build, collaborate, and host all in one place](https://repl.it/languages)
 
 
 ## Function **rpsls(player_choice)** output
