@@ -12,23 +12,27 @@
 Player choise is: rock
 Computer's choice is: Spock
 Computer wins!
+```
 
-
+```
 Player choise is: Spock
 Computer's choice is: scissors
 Player wins!
+```
 
-
+```
 Player choise is: paper
 Computer's choice is: scissors
 Computer wins!
+```
 
-
+```
 Player choise is: lizard
 Computer's choice is: rock
 Computer wins!
+```
 
-
+```
 Player choise is: scissors
 Computer's choice is: scissors
 Player and computer tie!
