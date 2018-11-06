@@ -6,12 +6,12 @@ import random
 
 def name_to_number(name):
     # convert name to number
-    return {'rock': 0, 'Spock': 1, 'paper': 2, 'lizard': 3, 'scissors': 4}.get(name, 'Incorrect name')
+    return {'rock': 0, 'Spock': 1, 'paper': 2, 'lizard': 3, 'scissors': 4}.get(name)
 
 
 def number_to_name(number):
     # convert number to a name
-    return {0: 'rock', 1: 'Spock', 2: 'paper', 3: 'lizard', 4: 'scissors'}.get(number, -1)
+    return {0: 'rock', 1: 'Spock', 2: 'paper', 3: 'lizard', 4: 'scissors'}.get(number)
     
 
 def rpsls(player_choice): 
