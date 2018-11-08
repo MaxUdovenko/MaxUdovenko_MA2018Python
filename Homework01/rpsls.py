@@ -59,7 +59,6 @@ def rpsls(player_choice):
 
     # compute difference of comp_number and player_number modulo five
     difference = ((player_number - comp_number) % 5)
-    print(difference)
 
     # determine winner and print winner message
     # print({ 1: 'Player wins!', 2: 'Player wins!', 
