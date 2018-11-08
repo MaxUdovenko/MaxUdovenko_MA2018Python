@@ -68,9 +68,9 @@ def rpsls(player_choice):
     elif difference == 3 or difference == 4:
         print('Computer wins!')
     elif difference == 0:
-        "Player and computer tie!"
+        print("Player and computer tie!")
     else:
-        "Incorrect input data"
+        print("Incorrect input data")
 
     
 # test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE

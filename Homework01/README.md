@@ -1,4 +1,4 @@
-# [My CodeSkulptor script URL](https://py3.codeskulptor.org/#user302_yp8Me5Sa6l_0.py)
+# [My CodeSkulptor script URL](https://py3.codeskulptor.org/#user302_yp8Me5Sa6l_2.py)
 
 [Homework01](https://github.com/20awesome/VladBolibruk_MA2018Python/issues/2)
 
