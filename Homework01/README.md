@@ -1,4 +1,8 @@
-# [My CodeSkulptor script URL](https://py3.codeskulptor.org/#user302_yp8Me5Sa6l_2.py)
+# My CodeSkulptor script URLs
+* [Version #1: main template](https://py3.codeskulptor.org/#user302_yp8Me5Sa6l_2.py)
+* [Version #2: using dictionary GET method insted of if-else](https://py3.codeskulptor.org/#user302_yp8Me5Sa6l_3.py) (Reason: less strings in script and more clear code)
+
+---- 
 
 [Homework01](https://github.com/20awesome/VladBolibruk_MA2018Python/issues/2)
 

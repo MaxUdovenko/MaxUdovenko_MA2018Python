@@ -6,7 +6,6 @@ import random
 
 def name_to_number(name):
     # convert name to number
-    # return {'rock': 0, 'Spock': 1, 'paper': 2, 'lizard': 3, 'scissors': 4}.get(name)
     if name == 'rock':
         return 0
     elif name == 'Spock':
@@ -23,7 +22,6 @@ def name_to_number(name):
 
 def number_to_name(number):
     # convert number to a name
-    # return {0: 'rock', 1: 'Spock', 2: 'paper', 3: 'lizard', 4: 'scissors'}.get(number)
     if number == 0:
         return 'rock'
     elif number == 1:
@@ -61,8 +59,6 @@ def rpsls(player_choice):
     difference = ((player_number - comp_number) % 5)
 
     # determine winner and print winner message
-    # print({ 1: 'Player wins!', 2: 'Player wins!', 
-    #         3: 'Computer wins!', 4: 'Computer wins!'}.get(difference, "Player and computer tie!")) 
     if difference == 1 or difference == 2:
         print('Player wins!')
     elif difference == 3 or difference == 4:
