@@ -8,6 +8,7 @@
 
 * [Homework00 issue](https://github.com/20awesome/VladBolibruk_MA2018Python/issues/1)
 * [Homework01 issue](https://github.com/20awesome/VladBolibruk_MA2018Python/issues/2)
+* [Homework02 issue](https://github.com/20awesome/VladBolibruk_MA2018Python/issues/3)
 
 # Some usefull links
 
