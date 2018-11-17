@@ -1,7 +1,7 @@
 
 # Homework 02
 * [Guess Number v.1](https://py3.codeskulptor.org/#user302_KXdZ6yHDuQ_16.py)
-* [Guess Number v.2](https://py3.codeskulptor.org/#user302_KXdZ6yHDuQ_33.py)
+* [Guess Number v.2](https://py3.codeskulptor.org/#user302_KXdZ6yHDuQ_34.py)
 
 ----
 ## Interesting links
