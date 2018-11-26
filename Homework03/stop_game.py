@@ -63,4 +63,3 @@ frame.add_button("Stop", stop_timer, 200)
 frame.add_button("Reset", reset_timer, 200)
 
 frame.start()
-timer.start()
