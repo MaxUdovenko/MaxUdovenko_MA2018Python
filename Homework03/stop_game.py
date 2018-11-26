@@ -39,9 +39,8 @@ def stop_timer():
 
 def reset_timer():
     global value_to_change, total_stops, successful_stops
-    total_stops = 0
-    successful_stops = 0
-    value_to_change = 0
+
+    total_stops = successful_stops = value_to_change = 0
 
 
 def format(t):
