@@ -29,10 +29,10 @@ def stop_timer():
     global value_to_change,total_stops, successful_stops
     
     if timer.is_running():
-        total_stops = total_stops + 1
+        total_stops += 1
     
     if format(value_to_change)[-1] == '0' and timer.is_running():
-        successful_stops = successful_stops + 1
+        successful_stops += 1
         
     timer.stop()
 
