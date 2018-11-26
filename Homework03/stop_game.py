@@ -9,7 +9,7 @@ successful_stops = 0
 
 def print_integer():
     global value_to_change
-    value_to_change = value_to_change + 1
+    value_to_change += 1
     print(value_to_change)
 
     
