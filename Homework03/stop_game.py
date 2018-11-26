@@ -45,11 +45,12 @@ def reset_timer():
 
 
 def format(t):
-    template = '0000' + str(t)
-    return "{minutes}:{dsec}{sec}.{ms}".format(minutes=int(int(template[-4:][:2])/6),
-                                               dsec=int(template[-4:][:2])%6,
-                                               sec=template[-4:][-2],
-                                               ms=template[-4:][-1])
+    template = '0'*(4-len(str(t))) + str(t)
+    
+    return "{minutes}:{dsec}{sec}.{ms}".format(minutes=int(int(template[:2])/6),
+                                               dsec=int(template[:2])%6,
+                                               sec=template[-2],
+                                               ms=template[-1])
 
 
 timer = simplegui.create_timer(interval, print_integer)
