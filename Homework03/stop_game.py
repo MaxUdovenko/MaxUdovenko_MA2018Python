@@ -1,6 +1,6 @@
 import simplegui
 
-value_to_change = 0
+counter = 0
 interval = 100
 
 total_stops = 0
@@ -8,17 +8,18 @@ successful_stops = 0
 
 
 def print_integer():
-    global value_to_change
-    value_to_change += 1
-    print(value_to_change)
+    '''prints value to console'''
+    global counter
+    counter += 1
+    print(counter)
 
     
 def draw_timer(canvas):
+    '''draws times & stops counter on canvas'''
     global  total_stops, successful_stops
     
-    canvas.draw_text(format(str(value_to_change)), [250,200], 36, "Red")
-    
-    canvas.draw_text('{x}/{y}'.format(x=successful_stops,y=total_stops), [420,40], 36, "Yellow")
+    canvas.draw_text(format(counter), [250,200], 36, "Red")
+    canvas.draw_text('{x}/{y}'.format(x=successful_stops, y=total_stops), [420,40], 36, "Yellow")
 
     
 def start_timer():
@@ -26,21 +27,23 @@ def start_timer():
 
 
 def stop_timer():
-    global value_to_change,total_stops, successful_stops
+    global counter, total_stops, successful_stops
     
+    # timer.is_running()
+    # https://py3.codeskulptor.org/docs.html#timer-is_running
     if timer.is_running():
         total_stops += 1
     
-    if format(value_to_change)[-1] == '0' and timer.is_running():
+    if format(counter)[-1] == '0' and timer.is_running():
         successful_stops += 1
         
     timer.stop()
 
 
 def reset_timer():
-    global value_to_change, total_stops, successful_stops
+    global counter, total_stops, successful_stops
 
-    total_stops = successful_stops = value_to_change = 0
+    total_stops = successful_stops = counter = 0
 
 
 def format(t):
@@ -52,6 +55,7 @@ def format(t):
                                                ms=template[-1])
 
 
+# --- MAIN --- --- --- --- --- --- --- --- --- --- --- ---
 timer = simplegui.create_timer(interval, print_integer)
 
 frame = simplegui.create_frame("Homework #3", 500, 400)
