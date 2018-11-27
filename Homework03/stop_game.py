@@ -49,10 +49,10 @@ def reset_timer():
 def format(counter_value):
     # template is a string of 4 symbols lenght, '0000'
     # ---
-    # counter_value = 2 --> template = '0002'
-    # counter_value = 12 --> template = '0012'
-    # counter_value = 312 --> template = '0312'
-    # counter_value = 4312 --> template = '4312'
+    # counter_value == 2 --> template == '0002'
+    # counter_value == 12 --> template == '0012'
+    # counter_value == 312 --> template == '0312'
+    # counter_value == 4312 --> template == '4312'
     # ---
     # template string then parsed and converted to timer format '0:00.0'
     
