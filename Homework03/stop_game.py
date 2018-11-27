@@ -46,8 +46,8 @@ def reset_timer():
     total_stops = successful_stops = counter = 0
 
 
-def format(t):
-    template = '0'*(4-len(str(t))) + str(t)
+def format(counter_value):
+    template = '0'*(4-len(str(counter_value))) + str(counter_value)
     
     return "{minutes}:{dsec}{sec}.{ms}".format(minutes=int(int(template[:2])/6),
                                                dsec=int(template[:2])%6,
