@@ -18,14 +18,19 @@ def draw_timer(canvas):
     '''draws times & stops counter on canvas'''
     global  total_stops, successful_stops
     
-    canvas.draw_text(format(counter), [250,200], 36, "Red")
+    canvas.draw_text(format(counter), [200,200], 66, "Red")
     canvas.draw_text('{x}/{y}'.format(x=successful_stops, y=total_stops), [420,40], 36, "Yellow")
+    
+    if successful_stops > 0:
+        canvas.draw_text('{}%'.format( round((successful_stops/total_stops)*100,2) ), [420,80], 20, "White")
+    else:
+        canvas.draw_text('0%', [420,80], 20, "White")
 
     
 def start_timer():
     timer.start()
 
-
+    
 def stop_timer():
     global counter, total_stops, successful_stops
     
