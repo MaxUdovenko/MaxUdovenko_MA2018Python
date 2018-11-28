@@ -18,7 +18,7 @@ def draw_timer(canvas):
     '''draws times & stops counter on canvas'''
     global  total_stops, successful_stops
     
-    canvas.draw_text(format(counter), [200,200], 66, "Red")
+    canvas.draw_text(format(counter), [200,200], 66, "Orange")
     canvas.draw_text('{x}/{y}'.format(x=successful_stops, y=total_stops), [420,40], 36, "Yellow")
     
     if successful_stops > 0:
@@ -29,6 +29,7 @@ def draw_timer(canvas):
     
 def start_timer():
     timer.start()
+    frame.set_canvas_background("Blue")
 
     
 def stop_timer():
@@ -41,6 +42,9 @@ def stop_timer():
     
     if format(counter)[-1] == '0' and timer.is_running():
         successful_stops += 1
+        frame.set_canvas_background("Green")
+    else:
+        frame.set_canvas_background("Red")
         
     timer.stop()
 
@@ -49,6 +53,7 @@ def reset_timer():
     global counter, total_stops, successful_stops
 
     total_stops = successful_stops = counter = 0
+    frame.set_canvas_background("Blue")
 
 
 def format(counter_value):
@@ -73,6 +78,7 @@ def format(counter_value):
 timer = simplegui.create_timer(interval, print_integer)
 
 frame = simplegui.create_frame("Homework #3", 500, 400)
+frame.set_canvas_background("Blue")
 
 frame.set_draw_handler(draw_timer)
 
