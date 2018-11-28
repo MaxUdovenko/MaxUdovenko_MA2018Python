@@ -68,7 +68,7 @@ def format(counter_value):
     
     template = '0'*(4-len(str(counter_value))) + str(counter_value)
     
-    return "{minutes}:{dsec}{sec}.{ms}".format(minutes=int(int(template[:2])/6),
+    return "{minutes}:{dsec}{sec}.{ms}".format(minutes=int(template[:2])//6,
                                                dsec=int(template[:2])%6,
                                                sec=template[-2],
                                                ms=template[-1])
