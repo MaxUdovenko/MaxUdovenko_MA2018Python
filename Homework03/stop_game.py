@@ -40,7 +40,7 @@ def stop_timer():
     if timer.is_running():
         total_stops += 1
     
-    if format(counter)[-1] == '0' and timer.is_running():
+    if str(counter)[-1] == '0' and timer.is_running():
         successful_stops += 1
         frame.set_canvas_background("Green")
     else:
